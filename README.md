@@ -15,7 +15,7 @@ NAT adalah teknologi jaringan yang memungkinkan pengubahan alamat IP dalam heade
 **Jenis-jenis NAT:**
 - **Static NAT:** Mengonversi satu alamat IP lokal ke satu alamat IP publik secara tetap.
 - **Dynamic NAT:** Mengonversi beberapa alamat IP lokal ke beberapa alamat IP publik secara dinamis.
-- **PAT (Port Address Translation):** Juga dikenal sebagai NAT Overloading, di mana beberapa alamat IP lokal diterjemahkan ke satu alamat IP publik dengan perbedaan nomor port.
+- **PAT (Port Address Translation):** Juga dikenal sebagai NAT Overloading.
 
 # Cased
 ## Topologi Jaringan
