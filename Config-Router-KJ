@@ -14,6 +14,5 @@ interface Tunnel1
  tunnel destination 192.168.60.1
  tunnel protection ipsec profile VPN_Profile_KHI
 
-# Routing ke jaringan kampus CR dan KHI
 ip route 192.168.70.0 255.255.255.0 10.0.0.2
 ip route 192.168.60.0 255.255.255.0 10.0.1.2
