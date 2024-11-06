@@ -8,4 +8,16 @@ interface Tunnel0
  tunnel destination 192.168.80.1
  tunnel protection ipsec profile VPN_Profile_CR
 
+interface vlan20  
+ ip address 192.168.110.1 255.255.255.0
+ no shutdown
+
 ip route 192.168.80.0 255.255.255.0 10.0.0.1
+
+# config switch CR
+interface range fa0/1 - 24
+ switchport mode access
+ switchport access vlan 20
+
+vlan 20
+ name Lab_Praktikum_CR
