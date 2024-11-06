@@ -3,6 +3,7 @@
 ![Topologi KampusS](https://github.com/user-attachments/assets/b0739d09-9764-48fd-a9f8-671fef596f0d)
 
 ## Analisa Jaringan
+### Deskripsi Topologi
 - **Koneksi Antar Kampus:** Koneksi antara KJ dan masing-masing cabang (CR dan KHI) dibuat melalui tunnel VPN (IPSec). Tunnel0 menghubungkan KJ dengan CR, sementara Tunnel1 menghubungkan KJ dengan KHI, memungkinkan transfer data yang aman.
 - **Segmentasi VLAN:** Setiap kampus memiliki VLAN khusus untuk jaringan lokalnya, memastikan isolasi trafik lokal antar kampus. VLAN 10 (Lab_Praktikum) di KJ, VLAN 20 (Lab_Praktikum_CR) di CR, dan VLAN 30 (Lab_Praktikum_KHI) di KHI. Pengaturan ini memungkinkan akses yang aman dan tersegmentasi bagi setiap kampus.
 - **Rute Statis:** Konfigurasi rute statis pada KJ, CR, dan KHI memastikan bahwa setiap kampus dapat mengakses jaringan internal lainnya melalui IP yang telah ditetapkan pada masing-masing interface Tunnel.
