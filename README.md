@@ -41,5 +41,7 @@ NAT adalah teknologi jaringan yang memungkinkan pengubahan alamat IP dalam heade
 - Meningkatkan keamanan jaringan dengan menyembunyikan IP internal.
 - Menghemat penggunaan alamat IP publik yang terbatas.
 
+# Cased
+## Topologi Jaringan
 ![WhatsApp Image 2024-11-06 at 09 40 28_4f9afd71](https://github.com/user-attachments/assets/bca08a59-175c-4d0f-8679-e9842036898d)
 
