@@ -1,0 +1,11 @@
+interface eth0
+ ip address 192.168.70.1 255.255.255.0
+ no shutdown
+
+interface Tunnel0
+ ip address 10.0.0.2 255.255.255.252
+ tunnel source 192.168.70.1
+ tunnel destination 192.168.80.1
+ tunnel protection ipsec profile VPN_Profile_CR
+
+ip route 192.168.80.0 255.255.255.0 10.0.0.1
