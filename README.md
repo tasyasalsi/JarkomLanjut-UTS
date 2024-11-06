@@ -1,3 +1,7 @@
+# Cased
+## Topologi Jaringan
+![topologi jarkomm](https://github.com/user-attachments/assets/53520eff-6b51-4e0a-b4c7-144069ad251d)
+
 # ESSAY
 
 ## 1. Static Routing
@@ -16,7 +20,3 @@ NAT adalah teknologi jaringan yang memungkinkan pengubahan alamat IP dalam heade
 - **Static NAT:** Mengonversi satu alamat IP lokal ke satu alamat IP publik secara tetap.
 - **Dynamic NAT:** Mengonversi beberapa alamat IP lokal ke beberapa alamat IP publik secara dinamis.
 - **PAT (Port Address Translation):** Juga dikenal sebagai NAT Overloading.
-
-# Cased
-## Topologi Jaringan
-![topologi jarkomm](https://github.com/user-attachments/assets/53520eff-6b51-4e0a-b4c7-144069ad251d)
