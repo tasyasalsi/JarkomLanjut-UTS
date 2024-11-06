@@ -8,5 +8,4 @@ interface Tunnel0
  tunnel destination 192.168.80.1
  tunnel protection ipsec profile VPN_Profile_CR
 
-# Routing ke jaringan kampus KJ
 ip route 192.168.80.0 255.255.255.0 10.0.0.1
