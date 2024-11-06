@@ -19,4 +19,4 @@ NAT adalah teknologi jaringan yang memungkinkan pengubahan alamat IP dalam heade
 
 # Cased
 ## Topologi Jaringan
-![WhatsApp Image 2024-11-06 at 09 40 28_4f9afd71](https://github.com/user-attachments/assets/bca08a59-175c-4d0f-8679-e9842036898d)
+![topologi jarkom1](https://github.com/user-attachments/assets/c1814c5a-ab02-40f8-a287-70170f8016ad)
