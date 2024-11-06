@@ -1,6 +1,6 @@
 # Cased
 ## Topologi Jaringan
-![topologi jarkomm](https://github.com/user-attachments/assets/53520eff-6b51-4e0a-b4c7-144069ad251d)
+![Topologi Kampus](https://github.com/user-attachments/assets/ba1cf534-c719-4ecf-94f1-eaaac8298e7d)
 
 ## Analisa Jaringan
 - **Koneksi Antar Kampus:** Koneksi antara KJ dan masing-masing cabang (CR dan KHI) dibuat melalui tunnel VPN (IPSec). Tunnel0 menghubungkan KJ dengan CR, sementara Tunnel1 menghubungkan KJ dengan KHI, memungkinkan transfer data yang aman.
