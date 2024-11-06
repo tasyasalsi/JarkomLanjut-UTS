@@ -3,16 +3,30 @@
 ![Topologi KampusS](https://github.com/user-attachments/assets/b0739d09-9764-48fd-a9f8-671fef596f0d)
 ### Deskripsi Topologi
 Jaringan ini melibatkan 3 lokasi yang terhubung menggunakan tunnel. Setiap lokasi memiliki router yang saling terhubung melalui tunnel VPN. Router KJ bertindak sebagai pusat untuk menghubungkan lokasi CR dan KHI.
+
 ## Analisa Jaringan
-### 2. Rute Antar Kampus
+### Rute Antar Kampus
 - Kampus Kebon Jeruk (KJ) menghubungkan Kampus Citra Raya (CR) dan Kampus Harapan Indah (KHI) melalui 2 tunnel terpisah:
 - **Tunnel0** (IP 10.0.0.1/30) menghubungkan KJ dengan CR.
 - **Tunnel1** (IP 10.0.1.1/30) menghubungkan KJ dengan KHI.
 Setiap router memiliki rute statis untuk memastikan data yang dikirim menuju tujuan yang tepat.
+
 ### Analisis Komunikasi Antar Jaringan
 #### 1. CR ke KJ:
 - Ketika router CR ingin berkomunikasi dengan KJ, paket akan melewati Tunnel0 yang mengarah ke IP KJ (10.0.0.1).
 - KJ menerima paket ini melalui Tunnel0 dan dapat mengarahkan paket ke KHI jika diperlukan.
+#### 2. KHI ke KJ:
+- Ketika router KHI ingin berkomunikasi dengan KJ, paket akan melewati Tunnel1 yang mengarah ke IP KJ (10.0.1.1).
+- KJ menerima paket ini melalui Tunnel1 dan dapat mengarahkan paket ke CR jika diperlukan.
+#### 3. CR ke KHI:
+- CR mengirimkan paket ke KHI dengan melewati Tunnel0 menuju KJ.
+- Setelah sampai di KJ, paket akan diteruskan melalui Tunnel1 ke KHI.
+#### 4. KHI ke CR:
+- KHI mengirimkan paket ke CR dengan melewati Tunnel1 menuju KJ.
+- Setelah sampai di KJ, paket akan diteruskan melalui Tunnel0 ke CR.
+
+### Kesimpulan
+Jaringan ini berfungsi untuk menghubungkan KJ dengan CR dan KHI menggunakan Tunnel VPN. KJ bertindak sebagai pusat penghubung yang memungkinkan komunikasi atau pertukaran data antara CR dan KHI dengan tunnel yang terpisah. 
 
 # ESSAY
 
