@@ -3,9 +3,9 @@
 ![topologi jarkomm](https://github.com/user-attachments/assets/53520eff-6b51-4e0a-b4c7-144069ad251d)
 
 ## Analisa Jaringan
-**1. Koneksi Antar Kampus:** Koneksi antara KJ dan masing-masing cabang (CR dan KHI) dibuat melalui tunnel VPN (IPSec). Tunnel0 menghubungkan KJ dengan CR, sementara Tunnel1 menghubungkan KJ dengan KHI, memungkinkan transfer data yang aman.
-**2. Segmentasi VLAN:** Setiap kampus memiliki VLAN khusus untuk jaringan lokalnya, memastikan isolasi trafik lokal antar kampus. VLAN 10 (Lab_Praktikum) di KJ, VLAN 20 (Lab_Praktikum_CR) di CR, dan VLAN 30 (Lab_Praktikum_KHI) di KHI. Pengaturan ini memungkinkan akses yang aman dan tersegmentasi bagi setiap kampus.
-**3. Rute Statis:** Konfigurasi rute statis pada KJ, CR, dan KHI memastikan bahwa setiap kampus dapat mengakses jaringan internal lainnya melalui IP yang telah ditetapkan pada masing-masing interface Tunnel.
+- **Koneksi Antar Kampus:** Koneksi antara KJ dan masing-masing cabang (CR dan KHI) dibuat melalui tunnel VPN (IPSec). Tunnel0 menghubungkan KJ dengan CR, sementara Tunnel1 menghubungkan KJ dengan KHI, memungkinkan transfer data yang aman.
+- **Segmentasi VLAN:** Setiap kampus memiliki VLAN khusus untuk jaringan lokalnya, memastikan isolasi trafik lokal antar kampus. VLAN 10 (Lab_Praktikum) di KJ, VLAN 20 (Lab_Praktikum_CR) di CR, dan VLAN 30 (Lab_Praktikum_KHI) di KHI. Pengaturan ini memungkinkan akses yang aman dan tersegmentasi bagi setiap kampus.
+- **Rute Statis:** Konfigurasi rute statis pada KJ, CR, dan KHI memastikan bahwa setiap kampus dapat mengakses jaringan internal lainnya melalui IP yang telah ditetapkan pada masing-masing interface Tunnel.
 
 # ESSAY
 
